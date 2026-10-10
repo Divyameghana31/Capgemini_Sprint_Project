@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FunctionalSuite]">
+  <test thread-count="5" name="LoginFunctionalTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Login.FunctionalTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="blankPasswordLogin"/>
+        </methods>
+      </class> <!-- Login.FunctionalTest -->
+    </classes>
+  </test> <!-- LoginFunctionalTest(failed) -->
+</suite> <!-- Failed suite [FunctionalSuite] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Suite" parallel="tests" thread-count="2">
+
+    <test name="Login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Login.FunctionalTest"/>
+            <class name="Login.IntegrationTest"/>
+            <class name="Login.SmokeTest"/>
+            <class name="Login.SystemTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Catalog">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ProductCatalogPage.ProductCatalogTest"/>
+        </classes>
+    </test>
+
+    <test name="Add To Cart">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AddToCartPage.AddToCartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="CheckoutPage.CheckoutPageTest"/>
+        </classes>
+    </test>
+
+
+</suite>

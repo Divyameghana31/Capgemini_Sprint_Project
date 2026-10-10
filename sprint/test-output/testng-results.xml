@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[standard_user --> BLANK PASSWORD TEST PASSED]]>
+    </line>
+    <line>
+      <![CDATA[CAT-INT-001 PASSED: Catalog product was added to the cart]]>
+    </line>
+    <line>
+      <![CDATA[CAT-SM-001 PASSED: Inventory and product catalog loaded]]>
+    </line>
+    <line>
+      <![CDATA[locked_out_user --> LOCKED USER TEST PASSED]]>
+    </line>
+    <line>
+      <![CDATA[standard_user --> VALID LOGIN PASSED]]>
+    </line>
+    <line>
+      <![CDATA[CAT-SYS-001 PASSED: Sorting and product selection flow completed]]>
+    </line>
+    <line>
+      <![CDATA[SYS_01 PASSED: Complete login journey verified]]>
+    </line>
+    <line>
+      <![CDATA[CAT-FUN-002 PASSED: Products sorted by Name A-Z]]>
+    </line>
+    <line>
+      <![CDATA[SMK_01 PASSED: Login page and essential elements verified]]>
+    </line>
+    <line>
+      <![CDATA[ITS_01 PASSED: Credentials worked with the Login button]]>
+    </line>
+    <line>
+      <![CDATA[CAT-FUN-003 PASSED: Products sorted by price low to high]]>
+    </line>
+    <line>
+      <![CDATA[SYS_02 PASSED: Products heading displayed; product count = 6]]>
+    </line>
+    <line>
+      <![CDATA[ITS_02 PASSED: Redirected to the Products page]]>
+    </line>
+    <line>
+      <![CDATA[SMK_02 PASSED: Login successful and Products page opened]]>
+    </line>
+    <line>
+      <![CDATA[AC-FUN-001 PASSED: Sauce Labs Backpack added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Cart product displayed on checkout overview]]>
+    </line>
+    <line>
+      <![CDATA[CHK-SM-001 PASSED: Checkout information page opened]]>
+    </line>
+    <line>
+      <![CDATA[CHK-SYS-001 PASSED: Order completed and thank-you page displayed]]>
+    </line>
+    <line>
+      <![CDATA[AC-SM-001 PASSED: Basic Add to Cart functionality works]]>
+    </line>
+    <line>
+      <![CDATA[CHK-FUN-003 PASSED: Missing postal code validation displayed]]>
+    </line>
+    <line>
+      <![CDATA[CHK-SM-002 PASSED: Valid details opened checkout overview]]>
+    </line>
+    <line>
+      <![CDATA[AC-SYS-001 PASSED: Complete Add to Cart flow works]]>
+    </line>
+    <line>
+      <![CDATA[AC-FUN-003 PASSED: Three products displayed in cart]]>
+    </line>
+    <line>
+      <![CDATA[AC-INT-002 PASSED: Product displayed correctly in cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T14:23:48 IST" name="Parallel Suite" finished-at="2026-10-10T14:25:39 IST" duration-ms="111100">
+    <groups>
+      <group name="functional">
+        <method signature="FunctionalTest.blankPasswordLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" name="blankPasswordLogin" class="Login.FunctionalTest"/>
+        <method signature="FunctionalTest.lockedOutUserLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" name="lockedOutUserLogin" class="Login.FunctionalTest"/>
+        <method signature="FunctionalTest.validLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" name="validLogin" class="Login.FunctionalTest"/>
+        <method signature="ProductCatalogTest.verifySortingByNameAZ()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" name="verifySortingByNameAZ" class="ProductCatalogPage.ProductCatalogTest"/>
+        <method signature="ProductCatalogTest.verifySortingByPriceLowToHigh()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" name="verifySortingByPriceLowToHigh" class="ProductCatalogPage.ProductCatalogTest"/>
+        <method signature="AddToCartTest.verifyAddProductToCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" name="verifyAddProductToCart" class="AddToCartPage.AddToCartTest"/>
+        <method signature="AddToCartTest.verifyMultipleProductsInCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" name="verifyMultipleProductsInCart" class="AddToCartPage.AddToCartTest"/>
+        <method signature="CheckoutPageTest.verifyCheckoutButtonOpensCheckoutPage()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" name="verifyCheckoutButtonOpensCheckoutPage" class="CheckoutPage.CheckoutPageTest"/>
+        <method signature="CheckoutPageTest.verifyMissingPostalCodeValidation()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" name="verifyMissingPostalCodeValidation" class="CheckoutPage.CheckoutPageTest"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="SystemTest.verifyCompleteLoginJourney()[pri:1, instance:Login.SystemTest@139982de]" name="verifyCompleteLoginJourney" class="Login.SystemTest"/>
+        <method signature="SystemTest.verifyProductsPageContent()[pri:2, instance:Login.SystemTest@139982de]" name="verifyProductsPageContent" class="Login.SystemTest"/>
+        <method signature="ProductCatalogTest.verifySortingAndProductSelectionFlow()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" name="verifySortingAndProductSelectionFlow" class="ProductCatalogPage.ProductCatalogTest"/>
+        <method signature="AddToCartTest.verifyCompleteAddToCartFlow()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" name="verifyCompleteAddToCartFlow" class="AddToCartPage.AddToCartTest"/>
+        <method signature="CheckoutPageTest.verifyCompleteOrderAndThankYouPage()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" name="verifyCompleteOrderAndThankYouPage" class="CheckoutPage.CheckoutPageTest"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="SmokeTest.verifyLoginPageLoads()[pri:1, instance:Login.SmokeTest@385c9627]" name="verifyLoginPageLoads" class="Login.SmokeTest"/>
+        <method signature="SmokeTest.verifySuccessfulLogin()[pri:2, instance:Login.SmokeTest@385c9627]" name="verifySuccessfulLogin" class="Login.SmokeTest"/>
+        <method signature="ProductCatalogTest.verifyInventoryCatalogLoads()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" name="verifyInventoryCatalogLoads" class="ProductCatalogPage.ProductCatalogTest"/>
+        <method signature="AddToCartTest.verifyAddToCartSmokeTest()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" name="verifyAddToCartSmokeTest" class="AddToCartPage.AddToCartTest"/>
+        <method signature="CheckoutPageTest.verifyValidDetailsAllowContinue()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" name="verifyValidDetailsAllowContinue" class="CheckoutPage.CheckoutPageTest"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="IntegrationTest.verifyLoginWithButton()[pri:1, instance:Login.IntegrationTest@6989da5e]" name="verifyLoginWithButton" class="Login.IntegrationTest"/>
+        <method signature="IntegrationTest.verifyRedirectToProductsPage()[pri:2, instance:Login.IntegrationTest@6989da5e]" name="verifyRedirectToProductsPage" class="Login.IntegrationTest"/>
+        <method signature="ProductCatalogTest.verifyCatalogProductCanBeAddedToCart()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" name="verifyCatalogProductCanBeAddedToCart" class="ProductCatalogPage.ProductCatalogTest"/>
+        <method signature="AddToCartTest.verifyProductDisplayedInCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" name="verifyProductDisplayedInCart" class="AddToCartPage.AddToCartTest"/>
+        <method signature="CheckoutPageTest.verifyCartProductOnCheckoutOverview()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" name="verifyCartProductOnCheckoutOverview" class="CheckoutPage.CheckoutPageTest"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-10T14:23:48 IST" name="Product Catalog" finished-at="2026-10-10T14:24:32 IST" duration-ms="44895">
+      <class name="ProductCatalogPage.ProductCatalogTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:23:48 IST" name="launchBrowser" finished-at="2026-10-10T14:24:05 IST" duration-ms="17419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCatalogProductCanBeAddedToCart()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:05 IST" name="verifyCatalogProductCanBeAddedToCart" finished-at="2026-10-10T14:24:08 IST" duration-ms="2587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CAT-INT-001 PASSED: Catalog product was added to the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCatalogProductCanBeAddedToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:08 IST" name="closeBrowser" finished-at="2026-10-10T14:24:08 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:08 IST" name="launchBrowser" finished-at="2026-10-10T14:24:12 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyInventoryCatalogLoads()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:12 IST" name="verifyInventoryCatalogLoads" finished-at="2026-10-10T14:24:13 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CAT-SM-001 PASSED: Inventory and product catalog loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInventoryCatalogLoads -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:13 IST" name="closeBrowser" finished-at="2026-10-10T14:24:14 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:14 IST" name="launchBrowser" finished-at="2026-10-10T14:24:18 IST" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortingAndProductSelectionFlow()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:18 IST" name="verifySortingAndProductSelectionFlow" finished-at="2026-10-10T14:24:19 IST" duration-ms="1822" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CAT-SYS-001 PASSED: Sorting and product selection flow completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortingAndProductSelectionFlow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:19 IST" name="closeBrowser" finished-at="2026-10-10T14:24:21 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:21 IST" name="launchBrowser" finished-at="2026-10-10T14:24:24 IST" duration-ms="3076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortingByNameAZ()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:24 IST" name="verifySortingByNameAZ" finished-at="2026-10-10T14:24:26 IST" duration-ms="2186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CAT-FUN-002 PASSED: Products sorted by Name A-Z]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortingByNameAZ -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:26 IST" name="closeBrowser" finished-at="2026-10-10T14:24:27 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:27 IST" name="launchBrowser" finished-at="2026-10-10T14:24:30 IST" duration-ms="3386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySortingByPriceLowToHigh()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:30 IST" name="verifySortingByPriceLowToHigh" finished-at="2026-10-10T14:24:32 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CAT-FUN-003 PASSED: Products sorted by price low to high]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySortingByPriceLowToHigh -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ProductCatalogPage.ProductCatalogTest@bccb269]" started-at="2026-10-10T14:24:32 IST" name="closeBrowser" finished-at="2026-10-10T14:24:32 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ProductCatalogPage.ProductCatalogTest -->
+    </test> <!-- Product Catalog -->
+    <test started-at="2026-10-10T14:23:48 IST" name="Login" finished-at="2026-10-10T14:24:44 IST" duration-ms="56688">
+      <class name="Login.FunctionalTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:23:48 IST" name="launchBrowser" finished-at="2026-10-10T14:24:05 IST" duration-ms="17387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="blankPasswordLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:05 IST" name="blankPasswordLogin" finished-at="2026-10-10T14:24:07 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[standard_user --> BLANK PASSWORD TEST PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blankPasswordLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:07 IST" name="closeBrowser" finished-at="2026-10-10T14:24:08 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:08 IST" name="launchBrowser" finished-at="2026-10-10T14:24:12 IST" duration-ms="3936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="lockedOutUserLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:12 IST" name="lockedOutUserLogin" finished-at="2026-10-10T14:24:13 IST" duration-ms="996" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[locked_out_user --> LOCKED USER TEST PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:13 IST" name="closeBrowser" finished-at="2026-10-10T14:24:14 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:14 IST" name="launchBrowser" finished-at="2026-10-10T14:24:17 IST" duration-ms="3071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validLogin()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:17 IST" name="validLogin" finished-at="2026-10-10T14:24:18 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[standard_user --> VALID LOGIN PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.FunctionalTest@36fc695d]" started-at="2026-10-10T14:24:18 IST" name="closeBrowser" finished-at="2026-10-10T14:24:19 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.FunctionalTest -->
+      <class name="Login.SmokeTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:24 IST" name="launchBrowser" finished-at="2026-10-10T14:24:26 IST" duration-ms="2370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginPageLoads()[pri:1, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:26 IST" name="verifyLoginPageLoads" finished-at="2026-10-10T14:24:26 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SMK_01 PASSED: Login page and essential elements verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLoads -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:26 IST" name="closeBrowser" finished-at="2026-10-10T14:24:27 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:41 IST" name="launchBrowser" finished-at="2026-10-10T14:24:43 IST" duration-ms="2207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySuccessfulLogin()[pri:2, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:43 IST" name="verifySuccessfulLogin" finished-at="2026-10-10T14:24:44 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SMK_02 PASSED: Login successful and Products page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.SmokeTest@385c9627]" started-at="2026-10-10T14:24:44 IST" name="closeBrowser" finished-at="2026-10-10T14:24:44 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.SmokeTest -->
+      <class name="Login.IntegrationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:27 IST" name="launchBrowser" finished-at="2026-10-10T14:24:30 IST" duration-ms="3019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginWithButton()[pri:1, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:30 IST" name="verifyLoginWithButton" finished-at="2026-10-10T14:24:31 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITS_01 PASSED: Credentials worked with the Login button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:31 IST" name="closeBrowser" finished-at="2026-10-10T14:24:32 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:37 IST" name="launchBrowser" finished-at="2026-10-10T14:24:40 IST" duration-ms="2437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyRedirectToProductsPage()[pri:2, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:40 IST" name="verifyRedirectToProductsPage" finished-at="2026-10-10T14:24:41 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ITS_02 PASSED: Redirected to the Products page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRedirectToProductsPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.IntegrationTest@6989da5e]" started-at="2026-10-10T14:24:41 IST" name="closeBrowser" finished-at="2026-10-10T14:24:41 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.IntegrationTest -->
+      <class name="Login.SystemTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:19 IST" name="launchBrowser" finished-at="2026-10-10T14:24:21 IST" duration-ms="2498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCompleteLoginJourney()[pri:1, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:21 IST" name="verifyCompleteLoginJourney" finished-at="2026-10-10T14:24:23 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SYS_01 PASSED: Complete login journey verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteLoginJourney -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:23 IST" name="closeBrowser" finished-at="2026-10-10T14:24:24 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:32 IST" name="launchBrowser" finished-at="2026-10-10T14:24:35 IST" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductsPageContent()[pri:2, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:35 IST" name="verifyProductsPageContent" finished-at="2026-10-10T14:24:36 IST" duration-ms="1149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SYS_02 PASSED: Products heading displayed; product count = 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPageContent -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Login.SystemTest@139982de]" started-at="2026-10-10T14:24:36 IST" name="closeBrowser" finished-at="2026-10-10T14:24:37 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Login.SystemTest -->
+    </test> <!-- Login -->
+    <test started-at="2026-10-10T14:24:44 IST" name="Checkout" finished-at="2026-10-10T14:25:13 IST" duration-ms="29145">
+      <class name="CheckoutPage.CheckoutPageTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:44 IST" name="launchBrowser" finished-at="2026-10-10T14:24:47 IST" duration-ms="2884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCartProductOnCheckoutOverview()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:47 IST" name="verifyCartProductOnCheckoutOverview" finished-at="2026-10-10T14:24:51 IST" duration-ms="3676" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cart product displayed on checkout overview]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartProductOnCheckoutOverview -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:51 IST" name="closeBrowser" finished-at="2026-10-10T14:24:52 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:52 IST" name="launchBrowser" finished-at="2026-10-10T14:24:54 IST" duration-ms="2430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutButtonOpensCheckoutPage()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:54 IST" name="verifyCheckoutButtonOpensCheckoutPage" finished-at="2026-10-10T14:24:56 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CHK-SM-001 PASSED: Checkout information page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutButtonOpensCheckoutPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:56 IST" name="closeBrowser" finished-at="2026-10-10T14:24:56 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:56 IST" name="launchBrowser" finished-at="2026-10-10T14:24:58 IST" duration-ms="2263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCompleteOrderAndThankYouPage()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:24:58 IST" name="verifyCompleteOrderAndThankYouPage" finished-at="2026-10-10T14:25:01 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CHK-SYS-001 PASSED: Order completed and thank-you page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteOrderAndThankYouPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:01 IST" name="closeBrowser" finished-at="2026-10-10T14:25:02 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:02 IST" name="launchBrowser" finished-at="2026-10-10T14:25:04 IST" duration-ms="2433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyMissingPostalCodeValidation()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:04 IST" name="verifyMissingPostalCodeValidation" finished-at="2026-10-10T14:25:08 IST" duration-ms="4163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CHK-FUN-003 PASSED: Missing postal code validation displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMissingPostalCodeValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:08 IST" name="closeBrowser" finished-at="2026-10-10T14:25:09 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:09 IST" name="launchBrowser" finished-at="2026-10-10T14:25:11 IST" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyValidDetailsAllowContinue()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:11 IST" name="verifyValidDetailsAllowContinue" finished-at="2026-10-10T14:25:13 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CHK-SM-002 PASSED: Valid details opened checkout overview]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidDetailsAllowContinue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:CheckoutPage.CheckoutPageTest@707194ba]" started-at="2026-10-10T14:25:13 IST" name="closeBrowser" finished-at="2026-10-10T14:25:13 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CheckoutPage.CheckoutPageTest -->
+    </test> <!-- Checkout -->
+    <test started-at="2026-10-10T14:24:32 IST" name="Add To Cart" finished-at="2026-10-10T14:25:39 IST" duration-ms="66117">
+      <class name="AddToCartPage.AddToCartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:24:33 IST" name="launchBrowser" finished-at="2026-10-10T14:24:36 IST" duration-ms="3413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAddProductToCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:24:36 IST" name="verifyAddProductToCart" finished-at="2026-10-10T14:24:47 IST" duration-ms="11393" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AC-FUN-001 PASSED: Sauce Labs Backpack added to cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:24:47 IST" name="closeBrowser" finished-at="2026-10-10T14:24:48 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:24:48 IST" name="launchBrowser" finished-at="2026-10-10T14:24:51 IST" duration-ms="2880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAddToCartSmokeTest()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:24:51 IST" name="verifyAddToCartSmokeTest" finished-at="2026-10-10T14:25:01 IST" duration-ms="10418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AC-SM-001 PASSED: Basic Add to Cart functionality works]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartSmokeTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:01 IST" name="closeBrowser" finished-at="2026-10-10T14:25:04 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:04 IST" name="launchBrowser" finished-at="2026-10-10T14:25:07 IST" duration-ms="3840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCompleteAddToCartFlow()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:07 IST" name="verifyCompleteAddToCartFlow" finished-at="2026-10-10T14:25:17 IST" duration-ms="9344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AC-SYS-001 PASSED: Complete Add to Cart flow works]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteAddToCartFlow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:17 IST" name="closeBrowser" finished-at="2026-10-10T14:25:17 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:17 IST" name="launchBrowser" finished-at="2026-10-10T14:25:20 IST" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyMultipleProductsInCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:20 IST" name="verifyMultipleProductsInCart" finished-at="2026-10-10T14:25:28 IST" duration-ms="8321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AC-FUN-003 PASSED: Three products displayed in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleProductsInCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:28 IST" name="closeBrowser" finished-at="2026-10-10T14:25:28 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:28 IST" name="launchBrowser" finished-at="2026-10-10T14:25:31 IST" duration-ms="2073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductDisplayedInCart()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:31 IST" name="verifyProductDisplayedInCart" finished-at="2026-10-10T14:25:38 IST" duration-ms="7707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AC-INT-002 PASSED: Product displayed correctly in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductDisplayedInCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AddToCartPage.AddToCartTest@1e66f1f5]" started-at="2026-10-10T14:25:38 IST" name="closeBrowser" finished-at="2026-10-10T14:25:39 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AddToCartPage.AddToCartTest -->
+    </test> <!-- Add To Cart -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

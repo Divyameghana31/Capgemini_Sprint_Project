@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="System Suite">
+
+    <test name="System Tests">
+
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="system"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Login.SystemTest"/>
+            <class name="AddToCartPage.AddToCartTest"/>
+            <class name="ProductCatalogPage.ProductCatalogTest"/>
+            <class name="CheckoutPage.CheckoutPageTest"/>
+        </classes>
+
+    </test>
+
+</suite>

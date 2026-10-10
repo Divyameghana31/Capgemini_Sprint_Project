@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>TestNG:  Test chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 13:02:56 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>172 seconds (172335 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ProductCatalogPage.ProductCatalogTest.verifyInventoryCatalogLoads()'><b>verifyInventoryCatalogLoads</b><br>Test class: ProductCatalogPage.ProductCatalogTest<br/>
+<a href="#Output-1260012504" onClick='toggleBox("Output-1260012504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1260012504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1260012504">
+CAT-SM-001 PASSED: Inventory and product catalog loaded<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ProductCatalogPage.ProductCatalogTest@3c41ed1d</td></tr>
+<tr>
+<td title='Login.FunctionalTest.blankPasswordLogin()'><b>blankPasswordLogin</b><br>Test class: Login.FunctionalTest<br/>
+<a href="#Output-1434769862" onClick='toggleBox("Output-1434769862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1434769862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1434769862">
+standard_user --> BLANK PASSWORD TEST PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.FunctionalTest@7eac9008</td></tr>
+<tr>
+<td title='ProductCatalogPage.ProductCatalogTest.verifySortingAndProductSelectionFlow()'><b>verifySortingAndProductSelectionFlow</b><br>Test class: ProductCatalogPage.ProductCatalogTest<br/>
+<a href="#Output-1892470159" onClick='toggleBox("Output-1892470159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1892470159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1892470159">
+CAT-SYS-001 PASSED: Sorting and product selection flow completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ProductCatalogPage.ProductCatalogTest@3c41ed1d</td></tr>
+<tr>
+<td title='ProductCatalogPage.ProductCatalogTest.verifySortingByPriceLowToHigh()'><b>verifySortingByPriceLowToHigh</b><br>Test class: ProductCatalogPage.ProductCatalogTest<br/>
+<a href="#Output-256522893" onClick='toggleBox("Output-256522893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-256522893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-256522893">
+CAT-FUN-003 PASSED: Products sorted by price low to high<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ProductCatalogPage.ProductCatalogTest@3c41ed1d</td></tr>
+<tr>
+<td title='Login.FunctionalTest.lockedOutUserLogin()'><b>lockedOutUserLogin</b><br>Test class: Login.FunctionalTest<br/>
+<a href="#Output-66747889" onClick='toggleBox("Output-66747889", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-66747889" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-66747889">
+locked_out_user --> LOCKED USER TEST PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.FunctionalTest@7eac9008</td></tr>
+<tr>
+<td title='AddToCartPage.AddToCartTest.verifyCompleteAddToCartFlow()'><b>verifyCompleteAddToCartFlow</b><br>Test class: AddToCartPage.AddToCartTest<br/>
+<a href="#Output-973844160" onClick='toggleBox("Output-973844160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973844160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973844160">
+AC-SYS-001 PASSED: Complete Add to Cart flow works<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>AddToCartPage.AddToCartTest@6ed3ccb2</td></tr>
+<tr>
+<td title='CheckoutPage.CheckoutPageTest.verifyCartProductOnCheckoutOverview()'><b>verifyCartProductOnCheckoutOverview</b><br>Test class: CheckoutPage.CheckoutPageTest<br/>
+<a href="#Output-578961422" onClick='toggleBox("Output-578961422", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-578961422" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-578961422">
+Cart product displayed on checkout overview<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CheckoutPage.CheckoutPageTest@4116aac9</td></tr>
+<tr>
+<td title='ProductCatalogPage.ProductCatalogTest.verifySortingByNameAZ()'><b>verifySortingByNameAZ</b><br>Test class: ProductCatalogPage.ProductCatalogTest<br/>
+<a href="#Output-1517105378" onClick='toggleBox("Output-1517105378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1517105378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1517105378">
+CAT-FUN-002 PASSED: Products sorted by Name A-Z<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ProductCatalogPage.ProductCatalogTest@3c41ed1d</td></tr>
+<tr>
+<td title='Login.SmokeTest.verifyLoginPageLoads()'><b>verifyLoginPageLoads</b><br>Test class: Login.SmokeTest<br/>
+<a href="#Output-1845922505" onClick='toggleBox("Output-1845922505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845922505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845922505">
+SMK_01 PASSED: Login page and essential elements verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.SmokeTest@62ddbd7e</td></tr>
+<tr>
+<td title='AddToCartPage.AddToCartTest.verifyAddToCartSmokeTest()'><b>verifyAddToCartSmokeTest</b><br>Test class: AddToCartPage.AddToCartTest<br/>
+<a href="#Output-1402923025" onClick='toggleBox("Output-1402923025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1402923025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1402923025">
+AC-SM-001 PASSED: Basic Add to Cart functionality works<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>AddToCartPage.AddToCartTest@6ed3ccb2</td></tr>
+<tr>
+<td title='CheckoutPage.CheckoutPageTest.verifyValidDetailsAllowContinue()'><b>verifyValidDetailsAllowContinue</b><br>Test class: CheckoutPage.CheckoutPageTest<br/>
+<a href="#Output-811287498" onClick='toggleBox("Output-811287498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-811287498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-811287498">
+CHK-SM-002 PASSED: Valid details opened checkout overview<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CheckoutPage.CheckoutPageTest@4116aac9</td></tr>
+<tr>
+<td title='AddToCartPage.AddToCartTest.verifyProductDisplayedInCart()'><b>verifyProductDisplayedInCart</b><br>Test class: AddToCartPage.AddToCartTest<br/>
+<a href="#Output-1624449030" onClick='toggleBox("Output-1624449030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1624449030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1624449030">
+AC-INT-002 PASSED: Product displayed correctly in cart<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>AddToCartPage.AddToCartTest@6ed3ccb2</td></tr>
+<tr>
+<td title='CheckoutPage.CheckoutPageTest.verifyCompleteOrderAndThankYouPage()'><b>verifyCompleteOrderAndThankYouPage</b><br>Test class: CheckoutPage.CheckoutPageTest<br/>
+<a href="#Output-869437194" onClick='toggleBox("Output-869437194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-869437194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-869437194">
+CHK-SYS-001 PASSED: Order completed and thank-you page displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CheckoutPage.CheckoutPageTest@4116aac9</td></tr>
+<tr>
+<td title='CheckoutPage.CheckoutPageTest.verifyMissingPostalCodeValidation()'><b>verifyMissingPostalCodeValidation</b><br>Test class: CheckoutPage.CheckoutPageTest<br/>
+<a href="#Output-384916201" onClick='toggleBox("Output-384916201", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384916201" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384916201">
+CHK-FUN-003 PASSED: Missing postal code validation displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CheckoutPage.CheckoutPageTest@4116aac9</td></tr>
+<tr>
+<td title='Login.SystemTest.verifyProductsPageContent()'><b>verifyProductsPageContent</b><br>Test class: Login.SystemTest<br/>
+<a href="#Output-547853628" onClick='toggleBox("Output-547853628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-547853628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-547853628">
+SYS_02 PASSED: Products heading displayed; product count = 6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.SystemTest@1fa121e2</td></tr>
+<tr>
+<td title='Login.SystemTest.verifyCompleteLoginJourney()'><b>verifyCompleteLoginJourney</b><br>Test class: Login.SystemTest<br/>
+<a href="#Output-1011920203" onClick='toggleBox("Output-1011920203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011920203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011920203">
+SYS_01 PASSED: Complete login journey verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.SystemTest@1fa121e2</td></tr>
+<tr>
+<td title='CheckoutPage.CheckoutPageTest.verifyCheckoutButtonOpensCheckoutPage()'><b>verifyCheckoutButtonOpensCheckoutPage</b><br>Test class: CheckoutPage.CheckoutPageTest<br/>
+<a href="#Output-1263927050" onClick='toggleBox("Output-1263927050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1263927050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1263927050">
+CHK-SM-001 PASSED: Checkout information page opened<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CheckoutPage.CheckoutPageTest@4116aac9</td></tr>
+<tr>
+<td title='AddToCartPage.AddToCartTest.verifyMultipleProductsInCart()'><b>verifyMultipleProductsInCart</b><br>Test class: AddToCartPage.AddToCartTest<br/>
+<a href="#Output-1873631950" onClick='toggleBox("Output-1873631950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1873631950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1873631950">
+AC-FUN-003 PASSED: Three products displayed in cart<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>AddToCartPage.AddToCartTest@6ed3ccb2</td></tr>
+<tr>
+<td title='ProductCatalogPage.ProductCatalogTest.verifyCatalogProductCanBeAddedToCart()'><b>verifyCatalogProductCanBeAddedToCart</b><br>Test class: ProductCatalogPage.ProductCatalogTest<br/>
+<a href="#Output-769507769" onClick='toggleBox("Output-769507769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-769507769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-769507769">
+CAT-INT-001 PASSED: Catalog product was added to the cart<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ProductCatalogPage.ProductCatalogTest@3c41ed1d</td></tr>
+<tr>
+<td title='Login.FunctionalTest.validLogin()'><b>validLogin</b><br>Test class: Login.FunctionalTest<br/>
+<a href="#Output-209667159" onClick='toggleBox("Output-209667159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-209667159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209667159">
+standard_user --> VALID LOGIN PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.FunctionalTest@7eac9008</td></tr>
+<tr>
+<td title='Login.SmokeTest.verifySuccessfulLogin()'><b>verifySuccessfulLogin</b><br>Test class: Login.SmokeTest<br/>
+<a href="#Output-668707379" onClick='toggleBox("Output-668707379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-668707379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-668707379">
+SMK_02 PASSED: Login successful and Products page opened<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.SmokeTest@62ddbd7e</td></tr>
+<tr>
+<td title='AddToCartPage.AddToCartTest.verifyAddProductToCart()'><b>verifyAddProductToCart</b><br>Test class: AddToCartPage.AddToCartTest<br/>
+<a href="#Output-1070978681" onClick='toggleBox("Output-1070978681", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1070978681" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1070978681">
+AC-FUN-001 PASSED: Sauce Labs Backpack added to cart<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>AddToCartPage.AddToCartTest@6ed3ccb2</td></tr>
+<tr>
+<td title='Login.IntegrationTest.verifyLoginWithButton()'><b>verifyLoginWithButton</b><br>Test class: Login.IntegrationTest<br/>
+<a href="#Output-1498944673" onClick='toggleBox("Output-1498944673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498944673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498944673">
+ITS_01 PASSED: Credentials worked with the Login button<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.IntegrationTest@74e52ef6</td></tr>
+<tr>
+<td title='Login.IntegrationTest.verifyRedirectToProductsPage()'><b>verifyRedirectToProductsPage</b><br>Test class: Login.IntegrationTest<br/>
+<a href="#Output-114109618" onClick='toggleBox("Output-114109618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-114109618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-114109618">
+ITS_02 PASSED: Redirected to the Products page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.IntegrationTest@74e52ef6</td></tr>
+</table><p>
+</body>
+</html>

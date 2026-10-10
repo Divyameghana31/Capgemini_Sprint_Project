@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Parallel_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Parallel Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Parallel_Suite" class="navigator-link ">
+                    <span>C:\Users\udaym\eclipse-workspace\sprint\Parallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Parallel_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Parallel_Suite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Parallel_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Parallel_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Parallel_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Parallel_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_Suite" class="hide-methods passed suite-Parallel_Suite"> (hide)</a> <!-- hide-methods passed suite-Parallel_Suite -->
+                      <a href="#" panel-name="suite-Parallel_Suite" class="show-methods passed suite-Parallel_Suite"> (show)</a> <!-- show-methods passed suite-Parallel_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.FunctionalTest" class="method navigator-link" hash-for-method="blankPasswordLogin">blankPasswordLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.FunctionalTest" class="method navigator-link" hash-for-method="lockedOutUserLogin">lockedOutUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.FunctionalTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="AddToCartPage.AddToCartTest" class="method navigator-link" hash-for-method="verifyAddProductToCart">verifyAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="AddToCartPage.AddToCartTest" class="method navigator-link" hash-for-method="verifyAddToCartSmokeTest">verifyAddToCartSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="CheckoutPage.CheckoutPageTest" class="method navigator-link" hash-for-method="verifyCartProductOnCheckoutOverview">verifyCartProductOnCheckoutOverview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="ProductCatalogPage.ProductCatalogTest" class="method navigator-link" hash-for-method="verifyCatalogProductCanBeAddedToCart">verifyCatalogProductCanBeAddedToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="CheckoutPage.CheckoutPageTest" class="method navigator-link" hash-for-method="verifyCheckoutButtonOpensCheckoutPage">verifyCheckoutButtonOpensCheckoutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="AddToCartPage.AddToCartTest" class="method navigator-link" hash-for-method="verifyCompleteAddToCartFlow">verifyCompleteAddToCartFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.SystemTest" class="method navigator-link" hash-for-method="verifyCompleteLoginJourney">verifyCompleteLoginJourney</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="CheckoutPage.CheckoutPageTest" class="method navigator-link" hash-for-method="verifyCompleteOrderAndThankYouPage">verifyCompleteOrderAndThankYouPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="ProductCatalogPage.ProductCatalogTest" class="method navigator-link" hash-for-method="verifyInventoryCatalogLoads">verifyInventoryCatalogLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.SmokeTest" class="method navigator-link" hash-for-method="verifyLoginPageLoads">verifyLoginPageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.IntegrationTest" class="method navigator-link" hash-for-method="verifyLoginWithButton">verifyLoginWithButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="CheckoutPage.CheckoutPageTest" class="method navigator-link" hash-for-method="verifyMissingPostalCodeValidation">verifyMissingPostalCodeValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="AddToCartPage.AddToCartTest" class="method navigator-link" hash-for-method="verifyMultipleProductsInCart">verifyMultipleProductsInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="AddToCartPage.AddToCartTest" class="method navigator-link" hash-for-method="verifyProductDisplayedInCart">verifyProductDisplayedInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.SystemTest" class="method navigator-link" hash-for-method="verifyProductsPageContent">verifyProductsPageContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.IntegrationTest" class="method navigator-link" hash-for-method="verifyRedirectToProductsPage">verifyRedirectToProductsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="ProductCatalogPage.ProductCatalogTest" class="method navigator-link" hash-for-method="verifySortingAndProductSelectionFlow">verifySortingAndProductSelectionFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="ProductCatalogPage.ProductCatalogTest" class="method navigator-link" hash-for-method="verifySortingByNameAZ">verifySortingByNameAZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="ProductCatalogPage.ProductCatalogTest" class="method navigator-link" hash-for-method="verifySortingByPriceLowToHigh">verifySortingByPriceLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="Login.SmokeTest" class="method navigator-link" hash-for-method="verifySuccessfulLogin">verifySuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parallel_Suite" title="CheckoutPage.CheckoutPageTest" class="method navigator-link" hash-for-method="verifyValidDetailsAllowContinue">verifyValidDetailsAllowContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Parallel_Suite" class="panel Parallel_Suite">
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageLoads">
+                  </a> <!-- verifyLoginPageLoads -->
+                  <span class="method-name">verifyLoginPageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulLogin">
+                  </a> <!-- verifySuccessfulLogin -->
+                  <span class="method-name">verifySuccessfulLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.SystemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteLoginJourney">
+                  </a> <!-- verifyCompleteLoginJourney -->
+                  <span class="method-name">verifyCompleteLoginJourney</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsPageContent">
+                  </a> <!-- verifyProductsPageContent -->
+                  <span class="method-name">verifyProductsPageContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.IntegrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithButton">
+                  </a> <!-- verifyLoginWithButton -->
+                  <span class="method-name">verifyLoginWithButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRedirectToProductsPage">
+                  </a> <!-- verifyRedirectToProductsPage -->
+                  <span class="method-name">verifyRedirectToProductsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.FunctionalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPasswordLogin">
+                  </a> <!-- blankPasswordLogin -->
+                  <span class="method-name">blankPasswordLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedOutUserLogin">
+                  </a> <!-- lockedOutUserLogin -->
+                  <span class="method-name">lockedOutUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin">
+                  </a> <!-- validLogin -->
+                  <span class="method-name">validLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CheckoutPage.CheckoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartProductOnCheckoutOverview">
+                  </a> <!-- verifyCartProductOnCheckoutOverview -->
+                  <span class="method-name">verifyCartProductOnCheckoutOverview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckoutButtonOpensCheckoutPage">
+                  </a> <!-- verifyCheckoutButtonOpensCheckoutPage -->
+                  <span class="method-name">verifyCheckoutButtonOpensCheckoutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteOrderAndThankYouPage">
+                  </a> <!-- verifyCompleteOrderAndThankYouPage -->
+                  <span class="method-name">verifyCompleteOrderAndThankYouPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMissingPostalCodeValidation">
+                  </a> <!-- verifyMissingPostalCodeValidation -->
+                  <span class="method-name">verifyMissingPostalCodeValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidDetailsAllowContinue">
+                  </a> <!-- verifyValidDetailsAllowContinue -->
+                  <span class="method-name">verifyValidDetailsAllowContinue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AddToCartPage.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddProductToCart">
+                  </a> <!-- verifyAddProductToCart -->
+                  <span class="method-name">verifyAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddToCartSmokeTest">
+                  </a> <!-- verifyAddToCartSmokeTest -->
+                  <span class="method-name">verifyAddToCartSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteAddToCartFlow">
+                  </a> <!-- verifyCompleteAddToCartFlow -->
+                  <span class="method-name">verifyCompleteAddToCartFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultipleProductsInCart">
+                  </a> <!-- verifyMultipleProductsInCart -->
+                  <span class="method-name">verifyMultipleProductsInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDisplayedInCart">
+                  </a> <!-- verifyProductDisplayedInCart -->
+                  <span class="method-name">verifyProductDisplayedInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+          <div class="suite-Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ProductCatalogPage.ProductCatalogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCatalogProductCanBeAddedToCart">
+                  </a> <!-- verifyCatalogProductCanBeAddedToCart -->
+                  <span class="method-name">verifyCatalogProductCanBeAddedToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInventoryCatalogLoads">
+                  </a> <!-- verifyInventoryCatalogLoads -->
+                  <span class="method-name">verifyInventoryCatalogLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortingAndProductSelectionFlow">
+                  </a> <!-- verifySortingAndProductSelectionFlow -->
+                  <span class="method-name">verifySortingAndProductSelectionFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortingByNameAZ">
+                  </a> <!-- verifySortingByNameAZ -->
+                  <span class="method-name">verifySortingByNameAZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortingByPriceLowToHigh">
+                  </a> <!-- verifySortingByPriceLowToHigh -->
+                  <span class="method-name">verifySortingByPriceLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_Suite-class-passed -->
+        </div> <!-- panel Parallel_Suite -->
+        <div panel-name="test-xml-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\udaym\eclipse-workspace\sprint\Parallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Parallel Suite&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Login&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Login.FunctionalTest&quot;/&gt;
+      &lt;class name=&quot;Login.IntegrationTest&quot;/&gt;
+      &lt;class name=&quot;Login.SmokeTest&quot;/&gt;
+      &lt;class name=&quot;Login.SystemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Product Catalog&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ProductCatalogPage.ProductCatalogTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product Catalog --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Add To Cart&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AddToCartPage.AddToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add To Cart --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Checkout&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CheckoutPage.CheckoutPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout --&gt;
+&lt;/suite&gt; &lt;!-- Parallel Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Product Catalog (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add To Cart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankPasswordLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lockedOutUserLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddProductToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCheckoutButtonOpensCheckoutPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMissingPostalCodeValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMultipleProductsInCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySortingByNameAZ</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySortingByPriceLowToHigh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">integration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCartProductOnCheckoutOverview</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCatalogProductCanBeAddedToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginWithButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductDisplayedInCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRedirectToProductsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAddToCartSmokeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInventoryCatalogLoads</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginPageLoads</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySuccessfulLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyValidDetailsAllowContinue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">system</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCompleteAddToCartFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCompleteLoginJourney</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCompleteOrderAndThankYouPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductsPageContent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySortingAndProductSelectionFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_Suite');
+function tableData_Parallel_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAddProductToCart')
+data.setCell(0, 2, 'AddToCartPage.AddToCartTest')
+data.setCell(0, 3, 11393);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAddToCartSmokeTest')
+data.setCell(1, 2, 'AddToCartPage.AddToCartTest')
+data.setCell(1, 3, 10418);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCompleteAddToCartFlow')
+data.setCell(2, 2, 'AddToCartPage.AddToCartTest')
+data.setCell(2, 3, 9344);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyMultipleProductsInCart')
+data.setCell(3, 2, 'AddToCartPage.AddToCartTest')
+data.setCell(3, 3, 8321);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyProductDisplayedInCart')
+data.setCell(4, 2, 'AddToCartPage.AddToCartTest')
+data.setCell(4, 3, 7707);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyMissingPostalCodeValidation')
+data.setCell(5, 2, 'CheckoutPage.CheckoutPageTest')
+data.setCell(5, 3, 4163);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCartProductOnCheckoutOverview')
+data.setCell(6, 2, 'CheckoutPage.CheckoutPageTest')
+data.setCell(6, 3, 3676);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCatalogProductCanBeAddedToCart')
+data.setCell(7, 2, 'ProductCatalogPage.ProductCatalogTest')
+data.setCell(7, 3, 2587);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCompleteOrderAndThankYouPage')
+data.setCell(8, 2, 'CheckoutPage.CheckoutPageTest')
+data.setCell(8, 3, 2194);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySortingByNameAZ')
+data.setCell(9, 2, 'ProductCatalogPage.ProductCatalogTest')
+data.setCell(9, 3, 2186);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'blankPasswordLogin')
+data.setCell(10, 2, 'Login.FunctionalTest')
+data.setCell(10, 3, 2167);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyValidDetailsAllowContinue')
+data.setCell(11, 2, 'CheckoutPage.CheckoutPageTest')
+data.setCell(11, 3, 2093);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySortingAndProductSelectionFlow')
+data.setCell(12, 2, 'ProductCatalogPage.ProductCatalogTest')
+data.setCell(12, 3, 1822);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCheckoutButtonOpensCheckoutPage')
+data.setCell(13, 2, 'CheckoutPage.CheckoutPageTest')
+data.setCell(13, 3, 1805);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyCompleteLoginJourney')
+data.setCell(14, 2, 'Login.SystemTest')
+data.setCell(14, 3, 1682);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySortingByPriceLowToHigh')
+data.setCell(15, 2, 'ProductCatalogPage.ProductCatalogTest')
+data.setCell(15, 3, 1501);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyProductsPageContent')
+data.setCell(16, 2, 'Login.SystemTest')
+data.setCell(16, 3, 1149);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyInventoryCatalogLoads')
+data.setCell(17, 2, 'ProductCatalogPage.ProductCatalogTest')
+data.setCell(17, 3, 1084);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validLogin')
+data.setCell(18, 2, 'Login.FunctionalTest')
+data.setCell(18, 3, 1028);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'lockedOutUserLogin')
+data.setCell(19, 2, 'Login.FunctionalTest')
+data.setCell(19, 3, 996);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLoginWithButton')
+data.setCell(20, 2, 'Login.IntegrationTest')
+data.setCell(20, 3, 881);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyRedirectToProductsPage')
+data.setCell(21, 2, 'Login.IntegrationTest')
+data.setCell(21, 3, 690);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifySuccessfulLogin')
+data.setCell(22, 2, 'Login.SmokeTest')
+data.setCell(22, 3, 673);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyLoginPageLoads')
+data.setCell(23, 2, 'Login.SmokeTest')
+data.setCell(23, 3, 315);
+window.suiteTableData['Parallel_Suite']= { tableData: data, tableDiv: 'times-div-Parallel_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Parallel_Suite">
+              </div> <!-- times-div-Parallel_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySortingByPriceLowToHigh</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CAT-FUN-003 PASSED: Products sorted by price low to high</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCatalogProductCanBeAddedToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CAT-INT-001 PASSED: Catalog product was added to the cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySortingAndProductSelectionFlow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CAT-SYS-001 PASSED: Sorting and product selection flow completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyInventoryCatalogLoads</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CAT-SM-001 PASSED: Inventory and product catalog loaded</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySortingByNameAZ</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CAT-FUN-002 PASSED: Products sorted by Name A-Z</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">lockedOutUserLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">locked_out_user --> LOCKED USER TEST PASSED</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductsPageContent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SYS_02 PASSED: Products heading displayed; product count = 6</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">standard_user --> VALID LOGIN PASSED</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginWithButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">ITS_01 PASSED: Credentials worked with the Login button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySuccessfulLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SMK_02 PASSED: Login successful and Products page opened</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCompleteLoginJourney</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SYS_01 PASSED: Complete login journey verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginPageLoads</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SMK_01 PASSED: Login page and essential elements verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">blankPasswordLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">standard_user --> BLANK PASSWORD TEST PASSED</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRedirectToProductsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">ITS_02 PASSED: Redirected to the Products page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyValidDetailsAllowContinue</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CHK-SM-002 PASSED: Valid details opened checkout overview</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMissingPostalCodeValidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CHK-FUN-003 PASSED: Missing postal code validation displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartProductOnCheckoutOverview</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cart product displayed on checkout overview</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCheckoutButtonOpensCheckoutPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CHK-SM-001 PASSED: Checkout information page opened</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCompleteOrderAndThankYouPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CHK-SYS-001 PASSED: Order completed and thank-you page displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddToCartSmokeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AC-SM-001 PASSED: Basic Add to Cart functionality works</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMultipleProductsInCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AC-FUN-003 PASSED: Three products displayed in cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductDisplayedInCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AC-INT-002 PASSED: Product displayed correctly in cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddProductToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AC-FUN-001 PASSED: Sauce Labs Backpack added to cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCompleteAddToCartFlow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AC-SYS-001 PASSED: Complete Add to Cart flow works</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">blankPasswordLogin</span>
+                <span class="method-start">17390 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCatalogProductCanBeAddedToCart</span>
+                <span class="method-start">17419 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">20008 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">20650 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">20856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInventoryCatalogLoads</span>
+                <span class="method-start">24368 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lockedOutUserLogin</span>
+                <span class="method-start">24586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25456 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">26322 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">26366 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLogin</span>
+                <span class="method-start">29393 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySortingAndProductSelectionFlow</span>
+                <span class="method-start">29945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.FunctionalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">30424 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SystemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">31350 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">31770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">33544 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SystemTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteLoginJourney</span>
+                <span class="method-start">33848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">35532 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">36224 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySortingByNameAZ</span>
+                <span class="method-start">36620 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageLoads</span>
+                <span class="method-start">38594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">38808 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">38910 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">39410 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.IntegrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">39575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithButton</span>
+                <span class="method-start">42594 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySortingByPriceLowToHigh</span>
+                <span class="method-start">42796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.IntegrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">43477 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SystemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">44269 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProductCatalogPage.ProductCatalogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">44299 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">44912 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SystemTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsPageContent</span>
+                <span class="method-start">47609 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAddProductToCart</span>
+                <span class="method-start">48325 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SystemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">48759 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.IntegrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">49828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRedirectToProductsPage</span>
+                <span class="method-start">52266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">52958 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.SmokeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">53398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulLogin</span>
+                <span class="method-start">55606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">56281 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">56626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartProductOnCheckoutOverview</span>
+                <span class="method-start">59511 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">59720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">60545 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">63189 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAddToCartSmokeTest</span>
+                <span class="method-start">63425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">64042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutButtonOpensCheckoutPage</span>
+                <span class="method-start">66474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">68282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">68639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteOrderAndThankYouPage</span>
+                <span class="method-start">70902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">73097 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">73844 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">73974 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">76028 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyMissingPostalCodeValidation</span>
+                <span class="method-start">76407 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteAddToCartFlow</span>
+                <span class="method-start">79868 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutPage.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">80570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">80986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidDetailsAllowContinue</span>
+                <span class="method-start">83381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">85476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AddToCartPage.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">89214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">89672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultipleProductsInCart</span>
+                <span class="method-start">92188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">100510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">100907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDisplayedInCart</span>
+                <span class="method-start">102980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">110687 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

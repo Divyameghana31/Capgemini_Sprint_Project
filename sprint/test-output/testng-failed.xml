@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AddToCartPage.AddToCartTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyCompleteAddToCartFlow"/>
+          <include name="verifyAddProductToCart"/>
+          <include name="closeBrowser"/>
+          <include name="verifyAddToCartSmokeTest"/>
+          <include name="verifyProductDisplayedInCart"/>
+          <include name="verifyMultipleProductsInCart"/>
+        </methods>
+      </class> <!-- AddToCartPage.AddToCartTest -->
+      <class name="CheckoutPage.CheckoutPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyCompleteOrderAndThankYouPage"/>
+          <include name="closeBrowser"/>
+          <include name="verifyCartProductOnCheckoutOverview"/>
+          <include name="verifyValidDetailsAllowContinue"/>
+          <include name="verifyMissingPostalCodeValidation"/>
+          <include name="verifyCheckoutButtonOpensCheckoutPage"/>
+        </methods>
+      </class> <!-- CheckoutPage.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

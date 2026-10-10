@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Suite]">
+  <test thread-count="5" name="Login Integration Tests(failed)">
+    <groups>
+      <run>
+        <include name="integration"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Login.IntegrationTest">
+        <methods>
+          <include name="verifyRedirectToProductsPage"/>
+          <include name="verifyLoginWithButton"/>
+        </methods>
+      </class> <!-- Login.IntegrationTest -->
+    </classes>
+  </test> <!-- Login Integration Tests(failed) -->
+</suite> <!-- Failed suite [Integration Suite] -->
